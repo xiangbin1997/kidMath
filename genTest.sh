@@ -1,6 +1,9 @@
 #!/bin/bash
 MIN_NUM=10
 MAX_NUM=100
+MAX_LINE=20
+MAX_COL=5
+
 ADD_SPACES=2
 
 function genNum
@@ -93,9 +96,6 @@ function genOne
 
 function genAll
 {
-  MAX_LINE=20
-  MAX_COL=5
-
   line=1
   col=1
 
